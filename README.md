@@ -10,8 +10,12 @@ Steps
 
 3. Follow instructions
 
-Directory example
+### The resulting directory structure
+------------
 
+The directory structure of your new project looks like this: 
+
+```
 ├── LICENSE
 ├── Makefile           <- Makefile with commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
@@ -37,7 +41,6 @@ Directory example
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
 │
-├── setup.py           <- Make this project pip installable with `pip install -e`
 ├── src                <- Source code for use in this project.
 │   ├── __init__.py    <- Makes src a Python module
 │   │
@@ -56,6 +59,8 @@ Directory example
 │       └── visualize.py
 │
 └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
+```
+
 
 You can create your own template!!
 
